@@ -2,7 +2,7 @@ name: Daily Refresh
 
 on:
   schedule:
-    - cron: "15 22 * * 1-5"
+    - cron: "15 22 * * *"
   workflow_dispatch:
 
 permissions:
